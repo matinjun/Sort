@@ -1,3 +1,5 @@
+#ifndef RANDOM_METHOD_HPP
+#define RANDOM_METHOD_HPP
 #include <random>
 #include <functional>
 #include <chrono>
@@ -46,3 +48,4 @@ namespace mtjrandom {
 		return di(dre);
 	}
 };
+#endif
